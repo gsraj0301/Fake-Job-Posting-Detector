@@ -1,0 +1,12 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset (too large for repo — download from Kaggle)
+fake_job_postings.csv
+
+# Secondary model (not the deployed one)
+fake_job_detector_rf.pkl
